@@ -7,6 +7,7 @@
 - [Stepper](documents/Stepper.md)
 - [Slider](documents/Slider.md)
 - [Toggle](documents/Toggle.md)
+- [DatePicker](documents/DatePicker.md)
 
 ## Layouts
 - [ZStack](documents/ZStack.md)
