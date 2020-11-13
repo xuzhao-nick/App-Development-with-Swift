@@ -1,7 +1,7 @@
 ## Button
 
 
-- [Button sample](../code/Button/)
+- [Button sample code](../code/Button/)
 
 - Button with SF Symboles
 
