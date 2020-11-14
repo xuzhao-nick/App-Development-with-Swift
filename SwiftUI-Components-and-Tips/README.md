@@ -10,7 +10,7 @@
 - [DatePicker](documents/DatePicker.md)
 
 ## Layouts
-- [ZStack](documents/ZStack.md)
+- [VStack, HStack and ZStack](documents/VStackHStackZStack.md)
 
 ## Tips
 - [Multiple Preview(Group)](documents/Group.md)
