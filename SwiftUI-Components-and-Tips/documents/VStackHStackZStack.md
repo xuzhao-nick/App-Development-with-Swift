@@ -318,5 +318,65 @@ struct ContentView: View {
 <image src="images/zstack.png" width="200"></image>
 </p>
 
+#### [Combined HStack and VStack sample](../code/CombineStacksSample/)
+```
+      VStack(alignment: .leading) {
+        Text("Sign Up your Cat for Regex for Cats!")
+          .font(Font.system(.headline, design: .rounded))
+          .fontWeight(.heavy)
+          .foregroundColor(.white)
+          .shadow(color: .gray, radius: 5, x: 5, y: 0.05)
+          .padding([.top, .bottom])
+        HStack {
+          Image("CatOnKeyboard")
+            .resizable()
+            .frame(width: 50, height: 50)
+          Button(action: {
+            print("Signed up")
+          }) {
+            HStack {
+              Text("Sign Up Today!")
+              Image(systemName: "checkmark.circle")
+            }
+          }
+          .padding()
+          .background(Color.catPurple)
+          .foregroundColor(.white)
+          .shadow(radius: 5)
+        }
+      }
+```
+<p>
+<image src="images/combinedstack.png" width="200"></image>
+</p>
 
+#### [Combined ZStack and VStack sample](../code/CombinedStacksSample1/)
+```
+      ZStack {
+        
+        Circle()
+          .fill(Color.catPurple)
+          .frame(width: 170, height: 170)
+          .padding()
+          .shadow(radius:10)
+        
+        VStack {
+          Image("CatOnKeyboard")
+            .resizable()
+            .frame(width: 150, height: 150)
+          Text("RegEx for Cats")
+            .font(Font.system(.largeTitle, design: .rounded))
+            .padding()
+            .background(Color.red)
+            .cornerRadius(15)
+        }
+        Spacer()
+          .layoutPriority(1)
+      }
+      .background(Color.rayWenderlichGreen)
+      .edgesIgnoringSafeArea(.all)
+```
+<p>
+<image src="images/combinedstack1.png" width="200"></image>
+</p>
 
