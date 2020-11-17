@@ -14,3 +14,5 @@
 
 ## [Recursive Enumerations](documents/RecursiveEnum.md)
 - A `recursive enumeration` is an enumeration that has another instance of the enumeration as the associated value for one or more of the enumeration cases. You indicate that an enumeration case is recursive by writing `indirect` before it, which tells the compiler to insert the necessary layer of indirection.
+
+## [Error Handling](documents/ErrorHandling.md)
