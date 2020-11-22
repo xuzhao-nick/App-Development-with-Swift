@@ -41,14 +41,14 @@ example(of: "PassthroughSubject") {
     }
   subject.send("Hello")
   subscription.cancel()
+  print("Canceled")
   //subject.send(completion: .failure(MyError.test))
   subject.send("World")
-  print("Canceled")
-  subscription.cancel()
+  //subscription.cancel()
   subject.send("hahaha")
   subject.send("what if")
-  subject.send(completion: .finished)
-  subject.send(completion: .failure(MyError.test))
+  //subject.send(completion: .finished)
+  //subject.send(completion: .failure(MyError.test))
   subject.send("Still there!")
 
 }
