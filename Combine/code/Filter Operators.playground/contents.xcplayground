@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true'>
+    <pages>
+        <page name='Remove Duplicates'/>
+        <page name='Basic Filter'/>
+        <page name='Compact Map'/>
+        <page name='Ignore Output'/>
+        <page name='Find First'/>
+        <page name='Find Last'/>
+        <page name='Find Last With PassthroughSubject'/>
+        <page name='Drop First'/>
+        <page name='Drop While'/>
+        <page name='Drop until Output From'/>
+        <page name='Prefix'/>
+        <page name='Prefix While'/>
+        <page name='Prefix until Output From'/>
+        <page name='Challenge'/>
+    </pages>
+</playground>
