@@ -5,5 +5,14 @@
         <page name='Prepend sequence'/>
         <page name='Prepend publisher'/>
         <page name='Prepend publisher #2'/>
+        <page name='Append output'/>
+        <page name='Append output #2'/>
+        <page name='Append Sequence'/>
+        <page name='Append Publisher'/>
+        <page name='Switch To Latest'/>
+        <page name='Switch To Latest - Network Request'/>
+        <page name='Merge'/>
+        <page name='Combine Latest'/>
+        <page name='Zip'/>
     </pages>
 </playground>
