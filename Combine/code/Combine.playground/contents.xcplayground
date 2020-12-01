@@ -10,5 +10,8 @@
         <page name='CurrentSubject'/>
         <page name='Dynamically Adjusting Demand'/>
         <page name='Type erasure'/>
+        <page name='Passthrouth Subject sample'/>
+        <page name='CurrentValueSubject sample'/>
+        <page name='Just'/>
     </pages>
 </playground>
